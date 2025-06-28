@@ -1,0 +1,35 @@
+#dishes{
+    width: 100%;
+    height: 100vh;
+}
+.title{
+    padding-top: 5rem;
+    text-align: center;
+}
+.title .sub-heading{
+    font-size: 2rem;
+    color: $green;
+}
+.title .heading{
+    color: $black;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+.dishes .box-container{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem, 1fr));
+    gap: 2rem;
+}
+.box{
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: $shadow;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
